@@ -1,6 +1,9 @@
 recipe({
+  exports: {
+    "jQuery": _jQuery
+  },
   libraries: [
-  	"jQuery",
+    "jQuery",
     "jQuery.fn.foo"
   ],
   scripts: [
@@ -12,12 +15,10 @@ recipe({
   
   $(function(){
     alert($.fn.foo && "Passed jQuery has foo method");
-	alert(!window.$.fn.foo && "Global jQuery doesnt have foo method");
+    alert(!window.$.fn.foo && "Global jQuery doesnt have foo method");
 
-	alert($.fn.jquery === "2.0.3" && "Passed jQuery version is 2.0.3");
-	alert(window.$.fn.jquery === "1.10.2" && "Global jQuery version is 1.10.2");
+    alert($.fn.jquery === "2.0.3" && "Passed jQuery version is 2.0.3");
+    alert(window.$.fn.jquery === "1.10.2" && "Global jQuery version is 1.10.2");
   });
 
-}).fail(function(e){
-  throw e;
 });
