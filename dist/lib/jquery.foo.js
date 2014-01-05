@@ -1,0 +1,1 @@
+!function(a){a.fn.foo=function(){alert("foo!")}}(jQuery);

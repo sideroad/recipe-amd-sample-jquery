@@ -1,0 +1,1 @@
+define(["jQuery","exports"],function(a,b){!function(a){a.fn.foo=function(){alert("foo!")}}(a),b["jQuery.fn.foo"]=a.fn.foo});

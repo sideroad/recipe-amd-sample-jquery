@@ -1,0 +1,1 @@
+if(!recipe){var recipe=function(){}};recipe.dependencies={"recipe.version":[],"recipe.dependencies":[],"recipe.amd.dependencies":[],"jQuery":["/dist/lib/jquery.js"],"jQuery.fn.foo":["/dist/lib/jquery.js","/dist/lib/jquery.foo.js"]};

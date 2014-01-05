@@ -1,0 +1,22 @@
+{
+  "jQuery": {
+    "path": "src/lib/jquery.js",
+    "dest": "dist/lib",
+    "url": "/dist/lib/jquery.js",
+    "dependencies": [],
+    "amd": {
+      "dest": "dist/lib/amd",
+      "url": "/dist/lib/amd/jquery.amd.js"
+    }
+  },
+  "jQuery.fn.foo": {
+    "path": "src/lib/jquery.foo.js",
+    "dest": "dist/lib",
+    "url": "/dist/lib/jquery.foo.js",
+    "dependencies": ["jQuery"],
+    "amd": {
+      "dest": "dist/lib/amd",
+      "url": "/dist/lib/amd/jquery.foo.amd.js"
+    }
+  }
+}
