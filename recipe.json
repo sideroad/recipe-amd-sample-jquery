@@ -1,13 +1,6 @@
 {
   "jQuery": {
-    "path": "src/lib/jquery.js",
-    "dest": "dist/lib",
-    "url": "/recipe-amd-sample-jquery/dist/lib/jquery.js",
-    "dependencies": [],
-    "amd": {
-      "dest": "dist/lib/amd",
-      "url": "/recipe-amd-sample-jquery/dist/lib/amd/jquery.amd.js"
-    }
+    "dependencies": []
   },
   "jQuery.fn.foo": {
     "path": "src/lib/jquery.foo.js",
