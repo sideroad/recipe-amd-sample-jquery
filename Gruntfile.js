@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     copy: {
       recipe: {
         files: {
-          'dist/recipe/recipe.js': ['lib/recipe/recipe.js']
+          'dist/recipe/recipe.js': ['lib/recipe/recipe.unpack.js']
         }
       }
     },
