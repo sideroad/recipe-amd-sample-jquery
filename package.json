@@ -9,7 +9,7 @@
   "description": "ERROR: No README.md file found!",
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-recipe": "~1.0.0",
+    "grunt-recipe": "~2.0.1",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.7",
     "grunt-contrib-clean": "~0.5.0",
