@@ -1,7 +1,4 @@
 recipe({
-  exports: {
-    "jQuery": _jQuery
-  },
   libraries: [
     "jQuery",
     "jQuery.fn.foo"
