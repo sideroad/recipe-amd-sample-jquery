@@ -1,1 +1,1 @@
-define(["jQuery","exports"],function(a,b){!function(a){a.fn.foo=function(){alert("foo!")}}(a),b["jQuery.fn.foo"]=a.fn.foo});
+define("jQuery.fn.foo",["jQuery"],function(a){return function(a){a.fn.foo=function(){alert("foo!")}}(a),a.fn.foo});
