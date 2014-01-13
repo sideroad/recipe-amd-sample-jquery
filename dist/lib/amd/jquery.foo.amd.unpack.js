@@ -1,8 +1,9 @@
-define(["jQuery","exports"], function(jQuery,exports){
+define("jQuery.fn.foo", ["jQuery"], function(jQuery){
 (function($){
   $.fn.foo = function(){
     alert('foo!');
   }
 })(jQuery);
 
-;exports["jQuery.fn.foo"] = jQuery.fn.foo;});
+;return jQuery.fn.foo;
+});
